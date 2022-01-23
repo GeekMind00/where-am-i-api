@@ -1,0 +1,618 @@
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:31:39 +0200
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (uninitialized constant WhereamisController
+Did you mean?  WhereamiController):
+  
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:32:55 +0200
+  
+ArgumentError ('WhereamiControllers' is not a supported controller name. This can lead to potential routing problems. See https://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:3:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:33:28 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/whereami"):
+  
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:33:59 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/whereami"):
+  
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:35:42 +0200
+  
+LoadError (cannot load such file -- HTTPClient):
+  
+app/controllers/whereami_controller.rb:1:in `<main>'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:42:35 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+LoadError (cannot load such file -- HTTParty):
+  
+app/controllers/whereami_controller.rb:1:in `<main>'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:43:02 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 4000)
+
+
+  
+NameError (uninitialized constant WhereamiController::HTTParty):
+  
+app/controllers/whereami_controller.rb:14:in `get_country_code'
+app/controllers/whereami_controller.rb:4:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:43:26 +0200
+  
+LoadError (cannot load such file -- HTTParty):
+  
+app/controllers/whereami_controller.rb:1:in `<main>'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:44:25 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+LoadError (cannot load such file -- httparty):
+  
+app/controllers/whereami_controller.rb:1:in `<main>'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:45:06 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+LoadError (cannot load such file -- httparty):
+  
+app/controllers/whereami_controller.rb:1:in `<main>'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:45:38 +0200
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 6ms (Allocations: 3443)
+
+
+  
+NameError (uninitialized constant WhereamiController::HTTParty):
+  
+app/controllers/whereami_controller.rb:15:in `get_country_code'
+app/controllers/whereami_controller.rb:5:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:46:09 +0200
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 2ms (Allocations: 2338)
+
+
+  
+NameError (uninitialized constant WhereamiController::HTTParty):
+  
+app/controllers/whereami_controller.rb:15:in `get_country_code'
+app/controllers/whereami_controller.rb:5:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:46:37 +0200
+  
+NameError (uninitialized constant HTTParty):
+  
+app/controllers/whereami_controller.rb:2:in `<main>'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:46:58 +0200
+  
+NameError (uninitialized constant WhereamiController::HTTParty):
+  
+app/controllers/whereami_controller.rb:4:in `<class:WhereamiController>'
+app/controllers/whereami_controller.rb:3:in `<main>'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:56:00 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4313)
+
+
+  
+NameError (undefined local variable or method `ip' for #<WhereamiController:0x0000000001eb18>):
+  
+app/controllers/whereami_controller.rb:18:in `get_country_code'
+app/controllers/whereami_controller.rb:7:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:56:21 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 821ms (Allocations: 2967)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:56:59 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 631ms (Allocations: 1137)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:57:55 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 806ms (Allocations: 1206)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 16:58:40 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 1030ms (Allocations: 1155)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:02:44 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 969ms (Allocations: 1154)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:03:38 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 628ms (Allocations: 1088)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:07:27 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 830ms (ActiveRecord: 0.0ms | Allocations: 4339)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:09:34 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 812ms (Allocations: 1170)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:10:01 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 632ms (Allocations: 1172)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:10:38 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 646ms (ActiveRecord: 0.0ms | Allocations: 4276)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:11:05 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 730ms (Allocations: 1116)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:11:36 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 743ms (Allocations: 1107)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:11:54 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 633ms (Allocations: 1132)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:12:30 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 709ms (Allocations: 1113)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:12:44 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 645ms (ActiveRecord: 0.0ms | Allocations: 4295)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:13:33 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 713ms (Allocations: 1157)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:14:03 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 714ms (Allocations: 1117)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:15:19 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 635ms (Allocations: 1160)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:15:40 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 794ms (Allocations: 1099)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:21:57 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 1113ms (Allocations: 1111)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:22:12 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 800ms (Allocations: 1107)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:26:35 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 30012ms (ActiveRecord: 0.0ms | Allocations: 2319)
+
+
+  
+SocketError (Failed to open TCP connection to jsonmock.hackerrank.com:443 (getaddrinfo: nodename nor servname provided, or not known)):
+  
+lib/url_api.rb:5:in `get'
+app/controllers/whereami_controller.rb:23:in `get_country_code'
+app/controllers/whereami_controller.rb:7:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:27:56 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 1066ms (ActiveRecord: 0.0ms | Allocations: 4304)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:52:00 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 5205ms (Allocations: 1136)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:53:32 +0200
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 943ms (Allocations: 1848)
+
+
+  
+NoMethodError (undefined method `request' for nil:NilClass):
+  
+app/controllers/whereami_controller.rb:7:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:53:47 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 676ms (Allocations: 1131)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:54:19 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 762ms (Allocations: 1110)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:56:36 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 837ms (Allocations: 1109)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:57:25 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 664ms (Allocations: 946)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:58:13 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 746ms (Allocations: 1130)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:58:24 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 750ms (ActiveRecord: 0.0ms | Allocations: 4316)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:58:55 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 760ms (Allocations: 1141)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:59:10 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 790ms (Allocations: 972)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 17:59:19 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 661ms (Allocations: 1150)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:00:02 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 776ms (Allocations: 1139)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:00:46 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 667ms (Allocations: 1146)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:01:04 +0200
+Processing by WhereamiController#index as */*
+No template found for WhereamiController#index, rendering head :no_content
+Completed 204 No Content in 764ms (Allocations: 1136)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:05:14 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/mostafaayad/whereAmI_Api/app/controllers/whereami_controller.rb:9: syntax error, unexpected local variable or method, expecting `end'
+...country,language), status: 200s
+...                              ^
+):
+  
+app/controllers/whereami_controller.rb:9: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/whereami_controller.rb:9: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/whereami_controller.rb:9: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:05:20 +0200
+  
+SyntaxError (/Users/mostafaayad/whereAmI_Api/app/controllers/whereami_controller.rb:9: syntax error, unexpected local variable or method, expecting `end'
+...country,language), status: 200s
+...                              ^
+):
+  
+app/controllers/whereami_controller.rb:9: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/whereami_controller.rb:9: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/whereami_controller.rb:9: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:05:31 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 844ms (Views: 0.7ms | Allocations: 2770)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:05:47 +0200
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 667ms (Allocations: 1896)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/whereami_controller.rb:22:in `get_country_code'
+app/controllers/whereami_controller.rb:6:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:06:45 +0200
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 697ms (Allocations: 1804)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/whereami_controller.rb:22:in `get_country_code'
+app/controllers/whereami_controller.rb:6:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:07:17 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 856ms (Views: 0.4ms | Allocations: 1181)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:56:59 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WhereamiController#index as */*
+Completed 200 OK in 1019ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 2916)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:57:14 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 660ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1154)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:58:06 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 669ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 968)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:58:27 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 747ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 966)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 18:58:55 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WhereamiController#index as */*
+Completed 200 OK in 1022ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 2918)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:00:02 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 988ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1144)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:00:16 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 666ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 970)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:00:38 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 661ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 967)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:01:43 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 842ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 964)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:01:59 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 660ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 965)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:02:35 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 661ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 964)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:02:46 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 704ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 966)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:04:56 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 837ms (Views: 0.5ms | Allocations: 961)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:05:02 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 662ms (Views: 0.5ms | Allocations: 963)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:05:15 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WhereamiController#index as */*
+Completed 200 OK in 669ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 2914)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:05:27 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 699ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 1140)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:05:37 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 678ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 978)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:06:08 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WhereamiController#index as */*
+Completed 200 OK in 700ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 2914)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-16 19:07:03 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 844ms (Views: 0.7ms | Allocations: 1195)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:43:06 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 4311)
+
+
+  
+NameError (undefined local variable or method `ip' for #<WhereamiController:0x0000000001eb68>
+Did you mean?  @ip):
+  
+app/controllers/whereami_controller.rb:6:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:44:01 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 871ms (Views: 0.6ms | Allocations: 1694)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:45:35 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 756ms (Views: 0.3ms | Allocations: 978)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:45:57 +0200
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 764ms (Allocations: 1436)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/whereami_controller.rb:22:in `[]'
+app/controllers/whereami_controller.rb:22:in `get_country_code'
+app/controllers/whereami_controller.rb:6:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:47:52 +0200
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 854ms (Allocations: 1418)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/whereami_controller.rb:22:in `[]'
+app/controllers/whereami_controller.rb:22:in `get_country_code'
+app/controllers/whereami_controller.rb:6:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:48:58 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 678ms (Views: 0.5ms | Allocations: 1236)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:50:28 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 854ms (Views: 0.4ms | Allocations: 1279)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:53:26 +0200
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 891ms (Allocations: 1429)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/whereami_controller.rb:26:in `[]'
+app/controllers/whereami_controller.rb:26:in `country_code'
+app/controllers/whereami_controller.rb:6:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:54:03 +0200
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 679ms (Allocations: 1426)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/whereami_controller.rb:27:in `[]'
+app/controllers/whereami_controller.rb:27:in `country_code'
+app/controllers/whereami_controller.rb:6:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:54:44 +0200
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 758ms (Allocations: 1864)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/whereami_controller.rb:27:in `country_code'
+app/controllers/whereami_controller.rb:6:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:55:32 +0200
+Processing by WhereamiController#index as */*
+Completed 500 Internal Server Error in 849ms (Allocations: 1645)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/whereami_controller.rb:27:in `country_code'
+app/controllers/whereami_controller.rb:6:in `index'
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:56:11 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 825ms (Views: 0.5ms | Allocations: 1168)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:56:24 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 699ms (Views: 0.3ms | Allocations: 1175)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:56:58 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 679ms (Views: 0.5ms | Allocations: 1153)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 03:57:27 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 867ms (Views: 0.4ms | Allocations: 1169)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 04:01:21 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 855ms (Views: 0.3ms | Allocations: 1165)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 04:01:33 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 667ms (Views: 0.4ms | Allocations: 1182)
+
+
+Started GET "/whereami" for 127.0.0.1 at 2022-01-23 04:01:42 +0200
+Processing by WhereamiController#index as */*
+Completed 200 OK in 671ms (Views: 0.4ms | Allocations: 1161)
+
+
