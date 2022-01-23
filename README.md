@@ -22,5 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-# ApiTasks
 # where_am_i_api
