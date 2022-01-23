@@ -46,3 +46,5 @@ $ rails s
    ```sh 
    get /whereami
    ```
+
+
