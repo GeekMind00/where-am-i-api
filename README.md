@@ -1,26 +1,48 @@
-# README
+WhereAmI-API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About The Project
 
-Things you may want to cover:
+> WhereAmI-API is an API that provides information about a user's location and language.
 
-* Ruby version
+### Built with
 
-* System dependencies
+- main project [RoR](https://rubyonrails.org/)
+- testing: [Rspec](https://rspec.info/).
 
-* Configuration
 
-* Database creation
+## Getting Started
 
-* Database initialization
+> This is an list of needed instructions to set up your project locally, to get a local copy up and running follow these instructions.
 
-* How to run the test suite
+### Installation
 
-* Services (job queues, cache servers, search engines, etc.)
+1. **_Clone the repository_**
 
-* Deployment instructions
+```sh
+git clone git@github.com:GeekMind00/where-am-i-api.git
+```
 
-* ...
-# ApiTasks
-# where_am_i_api
+2. **_Navigate to repository directory_**
+
+```sh
+$ cd where-am-i-api
+```
+
+3. **_Install dependencies_**
+
+```sh
+$ bundle install
+```
+
+### Running
+
+1. **_Running the application_**
+
+```sh
+$ rails s
+```
+- Routes:
+    - To get user's IP, country and preferred language:
+   ```sh 
+   get /whereami
+   ```
